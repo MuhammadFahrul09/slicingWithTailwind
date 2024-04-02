@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link href="./output.css" rel="stylesheet">
+    <title>EditProfile</title>
+</head>
+<body class="m-0 bg-[#F6F7F8]">
+    <nav class="sm:px-[60px] lg:px-[80px] xl:px-[150px] py-8">
+        <div class="container mx-auto">
+            <div class="flex justify-between">
+                <div>
+                    <img src="/asset/image/Logo.svg">
+                </div>
+                
+                <div class="flex justify-between gap-5">
+                    <img src="/asset/image/bell (1) 1.svg">
+                    <img src="/asset/image/mail (3) 1.svg">
+                    <img src="/asset/image/Mask Group.svg">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="sm:px-[60px] lg:px-[80px] xl:px-[150px] py-24 bg-Purple">
+        <div class="container mx-auto h-[150px]">
+          <div class="flex flex-row">
+              <div class="flex gap-[30px] absolute">
+                  <div class="p-[30px] bg-white w-[357px] h-[400px] rounded-lg">
+                      <div class="text-center mb-5">
+                          <img src="/asset/image/profile-picture.png" class=" w-[150px] h-[150px] rounded-full" alt="profile-picture">
+                          <div class="flex gap-2 justify-center">
+                              <img src="/asset/image/edit.svg" alt="">
+                              <p class="text-Grey2 font-semibold text-[22px] font-openSans">Edit</p>
+                          </div>
+                      </div>
+                      <p class="m-0 text-Black font-semibold text-[22px] font-openSans">Louis Tomlinson</p>
+                      <p class="text-Black font-normal text-[14px] font-openSans">Web Developer</p>
+                      <div class="flex gap-[12px] m-0">
+                          <!-- icon -->
+                          <svg class="my-auto" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M14 6.66675C14 11.3334 8 15.3334 8 15.3334C8 15.3334 2 11.3334 2 6.66675C2 5.07545 2.63214 3.54933 3.75736 2.42411C4.88258 1.29889 6.4087 0.666748 8 0.666748C9.5913 0.666748 11.1174 1.29889 12.2426 2.42411C13.3679 3.54933 14 5.07545 14 6.66675Z" stroke="#9EA0A5" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M8 8.66675C9.10457 8.66675 10 7.77132 10 6.66675C10 5.56218 9.10457 4.66675 8 4.66675C6.89543 4.66675 6 5.56218 6 6.66675C6 7.77132 6.89543 8.66675 8 8.66675Z" stroke="#9EA0A5" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                          <p class="text-Grey2 font-normal text-[14px] font-openSans">Purwokerto, Jawa Tengah</p>
+                      </div>
+                      <p class="text-Grey2 font-normal text-[14px] font-openSans">Freelancer</p>
+                      
+                      <!-- <button class="my-[40px] px-4 py-2 w-[100%] h-[50px] bg-Purple border-none rounded font-openSans font-semibold text-[16px] text-white">
+                          Hire
+                      </button> -->
+                  </div>
+                  <div class="p-[30px] w-[753px] h-[600px] bg-white rounded-lg">
+                      <div class="flex flex-col">
+                          <p class="m-0 text-Black font-semibold text-[22px] font-openSans">Data Diri</p> 
+                          <div>
+                              <hr class="border-[#F2F3F4] border-1" />
+                          </div>
+                          <div class="my-7">
+                              <label for="" class="mb-[10px] block font-openSans text-[14px] font-medium text-Grey2">
+                                 Nama Lengkap
+                              </label>
+                              <input type="text" placeholder="Masukkan nama Lengkap" class="w-full bg-transparent rounded-md border-Grey2 py-[10px]  text-dark-6 outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-gray-2 disabled:border-gray-2 text-Grey2 font-openSans" />
+                          </div>
+  
+                          <div class="my-4">
+                              <label for="" class="mb-[10px] block font-openSans text-[14px] font-medium text-Grey2">
+                                 Job Desk
+                              </label>
+                              <input type="text" placeholder="Masukkan Job Desk" class="w-full bg-transparent rounded-md border-Grey2 py-[10px]  text-dark-6 outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-gray-2 disabled:border-gray-2 text-Grey2 font-openSans" />
+                          </div>
+  
+                          <div class="my-4">
+                              <label for="" class="mb-[10px] block font-openSans text-[14px] font-medium text-Grey2">
+                                 Domisili
+                              </label>
+                              <input type="text" placeholder="Masukkan Domusili" class="w-full bg-transparent rounded-md border-Grey2 py-[10px]  text-dark-6 outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-gray-2 disabled:border-gray-2 text-Grey2 font-openSans" />
+                          </div>
+  
+                          <div class="my-4">
+                              <label for="" class="mb-[10px] block font-openSans text-[14px] font-medium text-Grey2">
+                                 Tempat Kerja
+                              </label>
+                              <input type="text" placeholder="Masukkan Tempat Kerja" class="w-full bg-transparent rounded-md border-Grey2 py-[10px]  text-dark-6 outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-gray-2 disabled:border-gray-2 text-Grey2 font-openSans" />
+                          </div>
+  
+                              <div class="my-4">
+                                 <label for="" class="mb-[10px] block text-base font-medium text-dark text-Grey2">
+                                 Deskripsi singkat
+                                 </label>
+                                 <textarea rows="5" placeholder="Tuliskan Deskripsi Singkat" class="w-full bg-transparent rounded-md border border-stroke dark:border-dark-3 text-dark-6 outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-gray-2"></textarea>
+                              </div>
+                      </div>    
+                      <!-- <p class="m-0 text-Black font-semibold text-[22px] font-openSans">Portofolio</p>
+                      <p class="text-Black font-normal text-[14px] font-openSans">Pengalaman Kerja</p> -->
+                  </div>
+                  
+                  
+              </div>
+            
+          </div>
+
+          <div class="px-[30px] h-[200px] w-[200px] bg-red-500">
+            <p>sdsdsde</p>
+          </div>
+        </div>     
+    </div>
+
+    </div>
+
+    <footer class="mt-[1000px]">
+        <div class="container bg-Purple py-8">
+            <div class="grid grid-cols-12">
+                <div class="col-span-12 px-6">
+                    <img src="/asset/image/logo-2.svg" class="mt-4">
+                    <p class="font-openSans font-normal text-white text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod ipsum et dui rhoncus auctor.</p>
+                    <hr class="border-gray-200 border-1 mt-10" />
+                    
+                    <div class="flex justify-between items-center">
+                        <a class="text-center font-openSans font-normal text-white text-xs">2020 Pewworld. All right reserved</a>
+                        <ul class="list-none gap-2 font-openSans font-normal text-white text-xs ">
+                            <li>
+                                <a class="mr-2">Telepon</a>
+                                <a>Email</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
